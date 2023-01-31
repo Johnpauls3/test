@@ -270,3 +270,10 @@ h2{
     margin-left: 338px;
     color: whitesmoke;
 }
+
+@media screen and (max-width: 768px) {
+    .produto-container {
+        width: 100%;
+        flex-direction: column;
+    }
+}
