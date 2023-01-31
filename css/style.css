@@ -258,3 +258,10 @@ section {
     font-family: Arial, Helvetica, sans-serif;
     color:black;   
 }
+
+@media screen and (max-width: 768px) {
+    .produto-container {
+        width: 100%;
+        flex-direction: column;
+    }
+}
